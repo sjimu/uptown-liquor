@@ -605,7 +605,7 @@ export default function Home() {
   </h3>
 
   <Image
-    src="/BELGRAVIA.jpeg"
+    src="/BELGRAVIA.JPEG"
     alt="BELGRAVIA"
     width={400}
     height={400}
