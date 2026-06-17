@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
- title: "Uptown Liquor",
-description: "Zimbabwe's Premium Liquor Destination",
+  title: "Uptown Liquor",
+  description: "Zimbabwe's Premium Liquor Destination",
+  icons: {
+    icon: "/belgravia-logo.png",
+  },
 };
 
 export default function RootLayout({
