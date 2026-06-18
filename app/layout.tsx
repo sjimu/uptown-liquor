@@ -41,15 +41,15 @@ export default function RootLayout({
         strategy="afterInteractive"
       />
 
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-          gtag('config', 'G-G8MFJGVDBD');
-        `}
-      </Script>
+gtag('config', 'G-G8MFJGVDBD');
+`}
+</Script>
     </head>
 
     <body className="min-h-full flex flex-col">
